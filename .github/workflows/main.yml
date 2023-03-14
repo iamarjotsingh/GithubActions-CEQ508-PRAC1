@@ -22,7 +22,7 @@ jobs:
     - uses: actions/setup-python@v4
       with:
         python-version: '3.10' 
-    - run: python ${GITHUB_WORKSPACE}/scripts/intro.py 5 5
+    - run: python ${GithubActions-CEQ508-PRAC1}/scripts/intro.py a=5,b=5
     
    #SECOND JOB IN WINDOWS 
   my_second_job:
@@ -33,5 +33,5 @@ jobs:
     - uses: actions/setup-python@v4
       with:
         python-version: '3.10' 
-    - run: python ${GITHUB_WORKSPACE}/scripts/intro.py 5 5
+    - run: python ${GithubActions-CEQ508-PRAC1}/scripts/intro.py a=5,b=5
     
